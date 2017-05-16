@@ -23,5 +23,5 @@ server.app.get('*', function(req, res) {
 	res.sendFile(__dirname + '/index.html')
 });
 server.listen(8088, function() {
-	console.log('测试访问8088端口')
+	console.log('请访问8088端口')
 });
