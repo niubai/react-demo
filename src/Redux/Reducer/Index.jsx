@@ -47,7 +47,6 @@ export const testData = (state = {}, action = {}) => {
 export const producRecord = (state = {}, action = {}) => {
     switch(action.type){
         case RECORD_STATE:
-        	debugger;
             return Object.assign({},state,action);
         case SAVE_PRODUCT_LIST:
             state['productList'] = [...action.productList];

@@ -175,7 +175,6 @@ class Main extends Component {
                     this.state.productList[index]['num'] = 1;
                 })
             }
-            debugger;
             if(nextProps.producRecord.id){
                 let {producRecord} = nextProps;
                 this.productsState(producRecord.id,producRecord.chooseState,producRecord.num,producRecord.index)
