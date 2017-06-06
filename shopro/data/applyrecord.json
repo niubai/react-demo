@@ -1,0 +1,34 @@
+{
+  "data":{
+    "balance_list":{
+      "2017-6":{
+        "month_money":"5000",
+        "data":[
+          {
+          "created_at" : "09:20",
+          "to_account_time":"10:20",
+          "money": "3000",
+          "to_account_status":"1"
+        },
+          {
+            "created_at" : "09:20",
+            "to_account_time":"10:20",
+            "money": "2000",
+            "to_account_status":"0"
+          }
+        ]
+      },
+      "2017-5":{
+        "month_money":"3000",
+        "data":[{
+          "created_at" : "09:20",
+          "to_account_time":"10:20",
+          "money": "3000",
+          "to_account_status":"1"
+        }
+        ]
+      }
+    }
+  },
+  "responseCode": "000000"
+}

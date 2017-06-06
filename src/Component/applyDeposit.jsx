@@ -61,7 +61,7 @@ class Main extends Component {
             Tool.alert('请输入提现金额')
           }else{
             this.props.getData('/shopro/data/applysuccess.json',{money:inputMoney},(res) => {
-                if (res.http_code == 200) {
+                if (res.http_code === '200') {
                     Tool.alert('您的提现申请已提交成功！','款项将于5-7个工作日转入您的微信钱包');
                     let deposit = this.state.allDeposit - inputMoney;
                     deposit = deposit.toString();

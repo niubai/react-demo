@@ -89,7 +89,7 @@ class DetailItem extends Component {
     render(){
         let {startTime,endTime,applyMoney,status} = this.props;
         return(
-            <li className={`apply_detail_item ${status == 1?'complete':'notcomplete'}`}>
+            <li className={`apply_detail_item ${status === '1'?'complete':'notcomplete'}`}>
                 <div className='status_detail'>
                     <div></div>
                     <div></div>
@@ -130,10 +130,11 @@ class Main extends Component {
             let data = nextProps.state.data;
             if (data&&data.data) {
                 let num = 0;
+                debugger;
                 let inform = data.data.balance_list;
                 for(let key in inform){
                     this.state.recordList[num] = {};
-                    if (key == nowTime) {
+                    if (key === nowTime) {
                         this.state.recordList[num]['month'] = '本月';
                     }else{
                         this.state.recordList[num]['month'] = key.replace('-','年')+'月';

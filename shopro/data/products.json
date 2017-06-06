@@ -1,0 +1,23 @@
+{
+  "data":{
+    "data":[
+      {
+        "product_name":"iphone5",
+        "product_id":"001"
+      },
+      {
+        "product_name":"iphone6",
+        "product_id":"002"
+      },
+      {
+        "product_name":"iphone6plus",
+        "product_id":"003"
+      },
+      {
+        "product_name":"iphone7plus",
+        "product_id":"004"
+      }
+    ]
+  },
+  "responseCode": "000000"
+}
